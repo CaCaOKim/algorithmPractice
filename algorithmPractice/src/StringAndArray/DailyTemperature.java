@@ -33,4 +33,4 @@ public class DailyTemperature {
 		
 	}//solve() END
 
-}//TwoSum END
+}//DailyTemperature END
