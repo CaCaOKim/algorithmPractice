@@ -36,6 +36,6 @@ public class GroupAnagrams {
 		result.addAll(map.values());
 		
 		return result;
-	}//groupAnagrams END
+	}//groupAnagrams() END
 
 }//GroupAnagrams END
