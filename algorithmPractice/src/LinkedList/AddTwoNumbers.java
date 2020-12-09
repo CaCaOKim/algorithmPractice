@@ -5,7 +5,7 @@ class ListNode{
 	ListNode next;
 	ListNode(int x){
 		this.val = x;
-	}//ListNode END
+	}//ListNode() END
 }//ListNode END
 
 public class AddTwoNumbers {
@@ -24,14 +24,6 @@ public class AddTwoNumbers {
 			System.out.println(node.val);
 			node = node.next;
 		}//while END
-		
-		
-		int a = 3;
-		int b = a;
-		
-		a = 187;
-		
-		System.out.println(b);
 	}//main() END
 
 	private static ListNode solve(ListNode l1, ListNode l2) {

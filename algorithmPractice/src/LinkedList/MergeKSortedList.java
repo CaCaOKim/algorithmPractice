@@ -8,7 +8,7 @@ import java.util.Queue;
 //	ListNode next;
 //	ListNode(int x){
 //		this.val = x;
-//	}//ListNode END
+//	}//ListNode() END
 //}//ListNode END
 
 public class MergeKSortedList {
