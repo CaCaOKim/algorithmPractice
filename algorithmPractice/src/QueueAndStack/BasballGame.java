@@ -16,21 +16,21 @@ public class BasballGame {
 		
 		for(String str : strs) {
 			switch(str) {
-			case "C":
-				st.pop();
-				break;
-			case "D":
-				st.push(st.peek()*2);
-				break;
-			case "+":
-				int n1 = st.pop();
-				int n2 = st.pop();
-				st.push(n2);
-				st.push(n1);
-				st.push(n1+n2);
-				break;
-			default:
-				st.push(Integer.valueOf(str));
+				case "C":
+					st.pop();
+					break;
+				case "D":
+					st.push(st.peek()*2);
+					break;
+				case "+":
+					int n1 = st.pop();
+					int n2 = st.pop();
+					st.push(n2);
+					st.push(n1);
+					st.push(n1+n2);
+					break;
+				default:
+					st.push(Integer.valueOf(str));
 			}//switch END
 		}//for END
 		
