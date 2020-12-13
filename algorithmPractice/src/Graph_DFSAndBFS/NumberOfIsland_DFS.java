@@ -49,6 +49,5 @@ public class NumberOfIsland_DFS {
 		search(grid, i, j+1);
 		search(grid, i, j-1);
 	}//search() END
-
 	
 }//NumberOfIsland_DFS END
